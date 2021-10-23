@@ -1,6 +1,6 @@
 ---
 deployment:
-  task:
+  tasks:
     - export DEPLOYPATH=/home/u1039741/public_html/testgithub
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp about.html $DEPLOYPATH
