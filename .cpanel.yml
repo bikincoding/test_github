@@ -3,5 +3,3 @@ deployment:
   task:
     - export DEPLOYPATH=/home/u1039741/public_html/testgithub
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp -R img $DEPLOYPATH
